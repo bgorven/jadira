@@ -13,7 +13,7 @@
 	<parent>
 		<groupId>com.github.arteam</groupId>
 		<artifactId>jadira.parent</artifactId>
-		<version>6.0.2.GA-jdk9</version>
+		<version>6.0.3.GA-jdk9-SNAPSHOT</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 
