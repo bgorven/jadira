@@ -91,9 +91,9 @@
 
 	<!-- See http://blog.sonatype.com/people/2009/09/maven-tips-and-tricks-using-github/ -->	
 	<scm>
-	    <connection>scm:git:https://github.com/JadiraOrg/jadira.git</connection>
-	    <url>scm:git:https://github.com/JadiraOrg/jadira.git</url>
-	    <developerConnection>scm:git:https://github.com/JadiraOrg/jadira.git</developerConnection>
+	    <connection>scm:git:git@github.com:arteam/jadira.git</connection>
+		<url>https://github.com/arteam/jadira.git</url>
+		<developerConnection>scm:git:git@github.com:arteam/jadira.git</developerConnection>
 	  <tag>HEAD</tag>
   	</scm>
   	
