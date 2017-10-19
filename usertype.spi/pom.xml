@@ -41,7 +41,7 @@
 				<artifactId>jadira.depmgmt</artifactId>
 				<type>pom</type>
 				<scope>import</scope>
-				<version>5.0.0.GA</version>
+				<version>6.0.0.GA</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
