@@ -1,3 +1,27 @@
+Fork of jadira with the java version fix from https://github.com/JadiraOrg/jadira/pull/66 applied to each release.
+
+I removed the references to the toolchain plugin from all the poms, as that was causing errors building on jitpack.
+This means that each branch will be built with the build environment's default jdk (currently Java 8).
+
+To add to your project, replace the usertype.spi dependency with this one. For instance, I have:
+
+```gradle
+repositories {
+	/*...*/
+
+	maven { url "https://jitpack.io" }
+}
+
+dependencies {
+	/*...*/
+
+    compile group: 'org.jadira.usertype', name: 'usertype.core', version: ver.jadira, {
+        exclude module: 'usertype.spi'
+    }
+    compile "com.github.bgorven.jadira:usertype.spi:${ver.jadira}-jdk9-SNAPSHOT"
+}
+```
+
 Usertype
 ================================================
 
